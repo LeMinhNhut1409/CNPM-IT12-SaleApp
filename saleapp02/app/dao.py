@@ -41,7 +41,7 @@ def load_products(kw=None):
         'id': 4,
         'name': "Iphone 15 Plus 128GB",
         'price': '27.990.000',
-        'image': 'https://cdn1.viettelstore.vn/Images/Product/ProductImage/143097929.jpeg'
+        'image': 'https://cdn1.viettelstore.vn/Images/Product/ProductImage/1877671236.jpeg'
     }, {
         'id': 5,
         'name': "IPad Pro 11 (2022) WIFI 128GB",
