@@ -19,5 +19,5 @@ def index():
 def details(id):
     return render_template('details.html')
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     app.run(debug=True)
