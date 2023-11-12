@@ -1,8 +1,7 @@
-from flask import Flask, render_template,request
+from flask import render_template,request
 import dao
+from app import app
 
-
-app = Flask(__name__)
 
 @app.route("/")
 def index():
@@ -19,5 +18,5 @@ def index():
 def details(id):
     return render_template('details.html')
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run(debug=True)
